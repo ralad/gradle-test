@@ -7,10 +7,13 @@ public class Person {
     private final String name;
     
     private final String lastName;
+    
+    private final String fistName;
 
-    public Person(String name, String lastName) {
+    public Person(String name, String lastName, final String fistName) {
         this.name = name;
         this.lastName = lastName;
+        this.fistName = fistName;
         new GrowthList();
     }
 
