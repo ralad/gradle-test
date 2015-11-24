@@ -2,17 +2,15 @@ package org.gradle;
 
 import org.apache.commons.collections.list.GrowthList;
 
-public class Person {
+public class Person2 {
     
     private final String lastName;
     
     private final String fistName;
 
-    public Person(String lastName, final String fistName) {
+    public Person2(String lastName, final String fistName) {
         this.lastName = lastName;
         this.fistName = fistName;
-        System.err.println("");
-        System.err.println("");
         new GrowthList();
     }
 
