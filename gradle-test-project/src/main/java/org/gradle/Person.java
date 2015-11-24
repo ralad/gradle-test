@@ -27,4 +27,11 @@ public class Person {
 	public String getLastName() {
 		return lastName;
 	}
+
+	/**
+	 * @return the fistName
+	 */
+	public String getFistName() {
+		return fistName;
+	}
 }
