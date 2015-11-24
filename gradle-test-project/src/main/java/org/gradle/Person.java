@@ -11,8 +11,6 @@ public class Person {
     public Person(String lastName, final String fistName) {
         this.lastName = lastName;
         this.fistName = fistName;
-        System.err.println("");
-        System.err.println("");
         new GrowthList();
     }
 
